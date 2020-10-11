@@ -1,0 +1,40 @@
+h1{
+    font-size:70px;
+    font-family: Proxima Nova;
+
+}
+
+h2{
+    font-family: Proxima Nova;
+    font-weight: 500;
+    opacity:40% ;
+
+}
+
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top:40px ;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    align-content: start
+  }
+  .container:after {
+    display: block;
+    margin: 20px;
+    flex: 999 999 auto;
+  }
+  .item {
+    flex: 0 0 auto;
+    margin: 12px;
+  }
+
+  p{
+      width:150px;
+  }
